@@ -83,6 +83,7 @@ export const App: React.FC = (): JSX.Element => {
           <Section title="Learn More">Read the docs to discover what to do next:</Section>
           <LearnMoreLinks />
         </View>
+        <Text>Test pipelines</Text>
       </ScrollView>
     </SafeAreaView>
   );
