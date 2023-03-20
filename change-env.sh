@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 if [ "$BITRISE_TRIGGERED_WORKFLOW_TITLE" = "qa" ]; then
     cp ./env/.env.qa ./env/.env
 elif [ "$BITRISE_TRIGGERED_WORKFLOW_TITLE" = "dev" ]; then
